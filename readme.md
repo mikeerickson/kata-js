@@ -1,6 +1,12 @@
 ## JavaScript Kata
 
-### Contributing To JavaScript Kata
+A series of Katas using JavaScript and Jasmine as TDD testing tool.
+
+### Current Kata
+
+- Fizzbuzz
+
+* NOTE:  Uses lodash for some extended testing *
 
 ### License
 
