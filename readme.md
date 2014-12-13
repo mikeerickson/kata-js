@@ -1,12 +1,12 @@
 ## JavaScript Kata
 
 A series of Katas using JavaScript and Jasmine as TDD testing tool.
+** NOTE:  Uses lodash for some extended testing **
 
 ### Current Kata
 
 - Fizzbuzz
-
-* NOTE:  Uses lodash for some extended testing *
+- Tennis Scoring (coming soon)
 
 ### License
 
