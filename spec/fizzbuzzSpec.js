@@ -19,6 +19,7 @@ describe("fizzbuzz", function() {
 
 	it("should return fizzbuzz when number divisible by 3 and 5", function() {
 		expect(fizzbuzz.execute(15)).toEqual('fizzbuzz');
+		expect(fizzbuzz.execute(30)).toEqual('fizzbuzz');
 	});
 
 	it("should return buzz when number divisible by 5", function() {
@@ -48,12 +49,12 @@ describe("fizzbuzz", function() {
 
 });
 
-describe("jasmine-matchers suite", function() {
+xdescribe("jasmine-matchers suite", function() {
 	it('should do some object checking', function() {
 		myObj = {};
 		expect(myObj).toBeEmptyObject();
 
-		myObj.name = 'Mike';
+		myObj.name = 'CodeDungeon';
 		expect(myObj).toHaveMember('name');
 
 	});
